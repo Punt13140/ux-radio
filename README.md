@@ -26,3 +26,5 @@ symfony console doctrine:migrations:migrate
 symfony console doctrine:fixtures:load
 symfony console tailwind:build
 ```
+
+Visiter `http://localhost:8036/` avec le bon port, votre application doit être fonctionnel et dump une radio.
