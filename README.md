@@ -21,5 +21,8 @@ cd /var/www/html/
 
 ```sh
 composer install
-
+symfony console doctrine:database:create
+symfony console doctrine:migrations:migrate
+symfony console doctrine:fixtures:load
+symfony console tailwind:build
 ```
