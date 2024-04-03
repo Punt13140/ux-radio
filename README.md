@@ -39,3 +39,47 @@ touch templates/components/Radio.html.twig
 touch templates/components/RadioCard.html.twig
 touch templates/components/RadioButton.html.twig
 ```
+
+```sh
+symfony console make:stimulus-controller radio
+
+ Language (JavaScript or TypeScript):
+  [js] JavaScript
+  [ts] TypeScript
+ > js
+
+ Do you want to include targets? (yes/no) [yes]:
+ >
+
+ New target name (press <return> to stop adding targets):
+ > audio
+
+ Add another target? Enter the target name (or press <return> to stop adding targets):
+ > play
+
+ Add another target? Enter the target name (or press <return> to stop adding targets):
+ > pause
+
+ Add another target? Enter the target name (or press <return> to stop adding targets):
+ >
+
+ Do you want to include values? (yes/no) [yes]:
+ >
+
+ New value name (press <return> to stop adding values):
+ > source
+
+ Value type (enter ? to see all types) [String]:
+ >
+
+ Add another value? Enter the value name (or press <return> to stop adding values):
+ > stream
+
+ Value type (enter ? to see all types) [String]:
+ >
+
+ Add another value? Enter the value name (or press <return> to stop adding values):
+ >
+
+ created: assets/controllers/radio_controller.js
+```
