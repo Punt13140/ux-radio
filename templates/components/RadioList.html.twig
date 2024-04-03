@@ -1,3 +1,5 @@
-<div{{ attributes }}>
-    <!-- component html -->
-</div>
+{# <div{{ attributes }}> #}
+    {% for radio in this.getRadios %}
+        {{ dump(radio) }}
+    {% endfor %}
+{# </div> #}

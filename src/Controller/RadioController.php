@@ -9,16 +9,11 @@ use Symfony\Component\Routing\Attribute\Route;
 
 class RadioController extends AbstractController
 {
-    public function __construct(
-        private readonly RadioRepository $radioRepository
-    ) {}
 
     #[Route('/')]
     public function index(): Response
     {
-        return $this->render('home.html.twig', [
-            'radio' => $this->radioRepository->findOneBy(['name' => 'NOSTALGIE'])
-        ]);
+        return $this->render('home.html.twig');
     }
 
     #[Route('/genre')]
