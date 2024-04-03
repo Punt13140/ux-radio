@@ -1,5 +1,6 @@
 {# <div{{ attributes }}> #}
     {% for radio in this.getRadios %}
         {{ dump(radio) }}
+        <twig:Radio :radio="radio"/>
     {% endfor %}
 {# </div> #}
