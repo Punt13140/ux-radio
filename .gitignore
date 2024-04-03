@@ -22,3 +22,7 @@
 ###> IntelliJ ###
 /.idea
 ###< IntelliJ ###
+
+###> InstEnvDk ###
+docker/
+###< InstEnvDk ###
