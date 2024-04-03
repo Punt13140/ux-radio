@@ -1,3 +1,8 @@
-<div{{ attributes }}>
-    {{ dump(this.radio) }}
-</div>
+{# <div{{ attributes }}> #}
+{#    {{ dump(this.radio) }} #}
+{# </div> #}
+{% props radio %}
+
+<twig:RadioCard>
+    <twig:RadioButton></twig:RadioButton>
+</twig:RadioCard>
