@@ -35,4 +35,7 @@ On créé notre composant qui va afficher notre liste de Radio.
 Ce composant n'a pas besoin d'être re-rendu après une action utilisateur, donc ce sera seulement un Twig Component
 ```sh
 symfony console make:twig-component RadioList
+symfony console make:twig-component Radio
+touch templates/components/RadioCard.html.twig
+touch templates/components/RadioButton.html.twig
 ```
