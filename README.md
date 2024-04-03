@@ -28,3 +28,11 @@ symfony console tailwind:build
 ```
 
 Visiter `http://localhost:8036/` avec le bon port, votre application doit être fonctionnel et dump une radio.
+
+## Atelier
+
+On créé notre composant qui va afficher notre liste de Radio.
+Ce composant n'a pas besoin d'être re-rendu après une action utilisateur, donc ce sera seulement un Twig Component
+```sh
+symfony console make:twig-component RadioList
+```
